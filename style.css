@@ -113,3 +113,22 @@ body {
     font-size: 20px;
   }
 }
+/* ... (rest of the code remains the same) */
+
+/* Small screens (mobiles) */
+@media only screen and (max-width: 767px) {
+  .pimg1, .pimg2, .pimg3 {
+    min-height: 200px; /* reduced height for mobile screens */
+    background-attachment: scroll; /* remove fixed background attachment for mobile */
+  }
+  .section {
+    padding: 20px 30px; /* reduced padding for mobile screens */
+  }
+  .ptext {
+    font-size: 18px; /* reduced font size for mobile screens */
+    letter-spacing: 4px; /* reduced letter spacing for mobile screens */
+  }
+  .textBg {
+    padding: 10px; /* reduced padding for mobile screens */
+  }
+}
